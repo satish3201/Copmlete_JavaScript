@@ -99,4 +99,5 @@ console.log(evens);
 const numbers4 = [1, 5, 10, 15];
 
 console.log(numbers4.find(num => num > 10));  
+console.log(numbers4.flatMap(x => [x, x*2])); // [1,2,2,4,3,6]
 
