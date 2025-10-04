@@ -1,0 +1,52 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  // background: linear-gradient(135deg, #6c63ff, #00bfa6);;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 1.5rem;
+  background: #fff;
+  opacity: 0.8;
+  
+}
+
+.toggle-password {
+  position: absolute;
+  top: 70%;
+  right: 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  user-select: none;
+  transform: translateY(-50%);
+  color: #6c63ff;
+}
+
+.forgot-link {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #6c63ff;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn-primary {
+  background: #6c63ff;
+  border: none;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: darken(#6c63ff, 10%);
+    transform: translateY(-2px);
+  }
+}
