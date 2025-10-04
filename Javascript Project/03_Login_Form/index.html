@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logoimage.png">
+</head>
+
+<body style="background-image: url('images/background.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <section class="form-sec">
+            <h1>Login Page</h1>
+
+            <div class="mouseover" id="mouseover">Hover over this div</div>
+
+            <form class="form1" id="form">
+
+                <input type="text" placeholder="email" id="email"><br/><br/>
+                <input type="text" placeholder="name"  id="name"><br/><br/>
+                <input type="number" placeholder="mobile number" id="mobile"><br/><br/>
+                <input type="text" placeholder="password" id="password"><br><br>
+                
+                <input type="file" placeholder="file" id="file"><br><br>
+                <input type="date" placeholder="DOB" id="DOB"><br><br>
+                <label><input type="radio" name="gender">Male</label>
+                <label><input type="radio" name="gender">Female</label>
+                <!-- <label><input type="Checkbox" name="playing">playing</label>
+                <label><input type="Checkbox" name="dancing">dancing</label>
+                <label><input type="Checkbox" name="singing">singing</label> -->
+                <button class="submit">Submit</button>  
+                <p id="myParagraph">This is a paragraph.</p>
+                <button onclick="changeText()">Click Me!</button>
+            
+                <p class="error" id="error"></p>
+            </form>  
+
+            <div class="result" id="result"></div> 
+        </section> 
+        <script src="script.js"></script>
+    </body>  
+</html>  
